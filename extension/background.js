@@ -6,7 +6,7 @@ try {
 }
 
 const CONFIG = typeof SYNTRA_CONFIG !== 'undefined' ? SYNTRA_CONFIG : {
-  APP_URL: 'http://localhost:3000',
+  APP_URL: 'https://syntra.rudreshp.me',
   GITHUB_API_URL: 'https://api.github.com',
   LEETCODE_BASE_URL: 'https://leetcode.com',
   DEFAULT_REPO: 'leetcode-dsa-solutions',

@@ -5,7 +5,7 @@
 
 const SYNTRA_CONFIG = {
   // Web Application & Backend API Base URL
-  APP_URL: 'http://localhost:3000',
+  APP_URL: 'https://syntra.rudreshp.me',
 
   // GitHub Endpoints
   GITHUB_API_URL: 'https://api.github.com',

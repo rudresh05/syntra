@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   openTrackerBtn.addEventListener('click', () => {
-    const appUrl = (typeof SYNTRA_CONFIG !== 'undefined' && SYNTRA_CONFIG.APP_URL) || 'http://localhost:3000';
+    const appUrl = (typeof SYNTRA_CONFIG !== 'undefined' && SYNTRA_CONFIG.APP_URL) || 'https://syntra.rudreshp.me';
     chrome.tabs.create({ url: appUrl });
   });
 

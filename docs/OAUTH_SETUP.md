@@ -17,12 +17,12 @@ To enable 1-Click **"Continue with GitHub"** login on SYNTRA, follow these steps
 
 Fill out the form fields with the following values:
 
-| Field | Value |
-| :--- | :--- |
-| **Application name** | `Syntra DSA Tracker` |
-| **Homepage URL** | `http://localhost:3000` |
-| **Application description** | `Automated LeetCode to GitHub Auto-Sync & DSA Roadmap Tracker` |
-| **Authorization callback URL** | `http://localhost:3000/api/auth/github-callback` |
+| Field | Value (Production) | Value (Local Development) |
+| :--- | :--- | :--- |
+| **Application name** | `Syntra DSA Tracker` | `Syntra DSA Tracker (Dev)` |
+| **Homepage URL** | `https://syntra.rudreshp.me` | `http://localhost:3000` |
+| **Application description** | `Automated LeetCode to GitHub Auto-Sync & DSA Roadmap Tracker` | `Automated LeetCode to GitHub Tracker` |
+| **Authorization callback URL** | `https://syntra.rudreshp.me/api/auth/github-callback` | `http://localhost:3000/api/auth/github-callback` |
 
 Click **Register application**.
 

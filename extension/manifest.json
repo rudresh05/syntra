@@ -11,6 +11,7 @@
   "host_permissions": [
     "https://leetcode.com/*",
     "https://api.github.com/*",
+    "https://syntra.rudreshp.me/*",
     "http://localhost:3000/*"
   ],
   "background": {
@@ -23,7 +24,7 @@
       "run_at": "document_idle"
     },
     {
-      "matches": ["http://localhost:3000/*"],
+      "matches": ["https://syntra.rudreshp.me/*", "http://localhost:3000/*"],
       "js": ["config.js", "web-bridge.js"],
       "run_at": "document_idle"
     }
